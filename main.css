@@ -1,3 +1,10 @@
+@media screen and (max-width: 615px) {
+  .headerlogo {
+  width: 15%;
+  height: 14%;
+  }
+}
+
 body, html {
   width: 100%;
 }
@@ -17,10 +24,22 @@ header, section {
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+}
+
 .headertext {
   font-weight: 300;
+  max-width: 100%;
 }
 
 .headersubtitle {
   font-weight: 300;
+  max-width: 100%;
+  justify-content: flex-end;
+
+}
+
+.headerlogo {
+
 }
