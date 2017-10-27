@@ -1,0 +1,26 @@
+body, html {
+  width: 100%;
+}
+
+body {
+  font-family: helvetica neue;
+  font-size: 18px;
+  font-weight: 400;
+  color: #424242;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+header, section {
+  box-sizing: border-box;
+}
+
+.headertext {
+  font-weight: 300;
+}
+
+.headersubtitle {
+  font-weight: 300;
+}
