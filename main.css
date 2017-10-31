@@ -62,28 +62,34 @@ h3 {
 }
 
 .mainimage {
-  width: 80%;
-  max-width: 100%;
-  margin-left: 10%;
+  display: flex;
+  width: 79%;
+  margin-top: 30px;
   margin-right: 10%;
-  margin-top: 30px;;
+  margin-left: 10%;
   vertical-align: top;
 }
 
 .featuredwork {
   display: flex;
-  flex-flow: row wrap;
-  margin-left: 10%;
-  margin-right: 10%;
   margin-top: 30px;
-  width: 81%;
-  max-width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
   text-align: center;
   justify-content: space-between;
 }
 
 .featuredworktext {
-  margin-left: 12%;
+  margin-left: 11%;
   text-align:left;
   color: #7d97ad;
+}
+
+.projecttitle {
+  font-family: helvetica neue, Arial, sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  color: #424242;
+  margin: 10px;
 }
