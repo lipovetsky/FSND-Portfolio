@@ -1,9 +1,24 @@
-@media screen and (max-width: 615px) {
-  .headerlogo {
-  width: 115%;
-  height: 14%;
+@media screen and (max-width: 450px) {
+  .headertext {
+    font-size: 11px;
+    align-self: flex-end;
   }
 }
+
+@media screen and (min-width: 451px) and (max-width: 650px) {
+  .headertext {
+    font-size: 14px;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    max-width: 1150px;
+    margin: auto;
+  }
+}
+
 
 body, html {
   width: 100%;
@@ -30,6 +45,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto;
 }
 
 h1 {
@@ -63,21 +79,22 @@ h3 {
 
 .mainimage {
   display: flex;
-  width: 79%;
+  width: 80%;
   margin-top: 30px;
-  margin-right: 10%;
-  margin-left: 10%;
-  vertical-align: top;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+  flex-grow: 1;
 }
 
 .featuredwork {
   display: flex;
-  margin-top: 30px;
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
   text-align: center;
-  justify-content: space-between;
+  margin: auto;
+  width: 86%;
+  flex-grow: 1;
 }
 
 .featuredworktext {
@@ -86,10 +103,24 @@ h3 {
   color: #7d97ad;
 }
 
+.project {
+  margin-bottom: 5%;
+}
+
 .projecttitle {
   font-family: helvetica neue, Arial, sans-serif;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 400;
   color: #424242;
   margin: 10px;
+}
+
+.link {
+  font-family: helvetica neue, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #7d97ad;
+  margin: 10px;
+  text-decoration:  none;
+
 }
