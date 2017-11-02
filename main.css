@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width: 702px) {
+  .featuredworktext {
+    text-align: center !important;
+    margin-left: 0% !important;
+  }
+}
 
 body, html {
   width: 100%;
@@ -33,7 +39,6 @@ body {
 
 img, embed, object, video {
   max-width: 100%;
-
 }
 
 header, section {
@@ -84,7 +89,6 @@ h3 {
   justify-content: space-around;
   margin-right: auto;
   margin-left: auto;
-  flex-grow: 1;
 }
 
 .featuredwork {
@@ -94,17 +98,15 @@ h3 {
   text-align: center;
   margin: auto;
   width: 86%;
-  flex-grow: 1;
 }
 
 .featuredworktext {
-  margin-left: 11%;
-  text-align:left;
+  width: 100%;
+  margin-left: 5%;
+  text-align: left;
   color: #7d97ad;
-}
-
-.project {
-  margin-bottom: 5%;
+  font-size: 28px;
+  margin-bottom: -1.5%;
 }
 
 .projecttitle {
@@ -122,5 +124,4 @@ h3 {
   color: #7d97ad;
   margin: 10px;
   text-decoration:  none;
-
 }
