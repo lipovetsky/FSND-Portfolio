@@ -29,7 +29,6 @@ body, html {
   width: 100%;
   max-width: 1150px;
   margin: auto;
-
 }
 
 body {
@@ -41,7 +40,6 @@ body {
 
 img, embed, object, video {
   max-width: 100%;
-
 }
 
 header, section {
@@ -133,5 +131,4 @@ h3 {
   color: #7d97ad;
   margin: 10px;
   text-decoration:  none;
-
 }
